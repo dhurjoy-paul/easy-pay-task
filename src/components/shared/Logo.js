@@ -13,7 +13,7 @@ export default function Logo() {
         />
       </div>
 
-      <p className="font-urbanist font-bold text-[1.625rem] md:text-[1.75rem] leading-normal">
+      <p className="font-urbanist font-bold text-[1.625rem] md:text-[1.75rem] leading-normal whitespace-nowrap">
         Easy Pay
       </p>
     </div>

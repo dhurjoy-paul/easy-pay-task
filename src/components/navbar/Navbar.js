@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
-import Button from "../Button";
 import Container from "../Container";
+import Button from "../shared/Button";
 import Logo from "../shared/Logo";
 import MobileMenu from "./MobileMenu";
 import NavLink from "./NavLink";

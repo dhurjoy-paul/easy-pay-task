@@ -6,6 +6,7 @@
 }
 
 @theme {
+  --breakpoint-small: 24rem;
   --breakpoint-wide: 74rem;
 }
 

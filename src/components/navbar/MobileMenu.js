@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import Button from "../Button";
+import Button from "../shared/Button";
 import NavLink from "./NavLink";
 
 export default function MobileMenu({ open, menu }) {
