@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+@theme {
+  --breakpoint-wide: 74rem;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
