@@ -69,7 +69,7 @@ export default function Features() {
         </Title>
       </div>
 
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 30rem:grid-cols-2 lar:grid-cols-4 gap-6">
         {features.map(card => <SmallCard key={card.title} title={card.title} description={card.description} svg={card.icon} color={card.color} />)}
       </div>
     </div>
