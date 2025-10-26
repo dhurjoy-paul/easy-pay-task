@@ -11,6 +11,17 @@
   --breakpoint-lar: 55.625rem;
   --breakpoint-med: 69rem;
   --breakpoint-wide: 74rem;
+
+  --animate-marquee: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 @theme inline {

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaArrowTrendUp } from "react-icons/fa6";
 import Container from "../Container";
 import BodyText from "../fonts/BodyText";
 import SmallTitle from "../fonts/SmallTitle";
@@ -7,7 +8,7 @@ import Navbar from "../navbar/Navbar";
 
 export default function HeroSection() {
   return (
-    <div className="relative w-full bg-cover bg-center bg-no-repeat max-w-[1392px] mx-auto rounded-3xl mt-6"
+    <section className="relative w-full bg-cover bg-center bg-no-repeat max-w-[1392px] mx-auto rounded-3xl mt-6"
       style={{ backgroundImage: `url(/HeroBackground.png)` }}
     >
       {/* navbar */}
@@ -66,11 +67,11 @@ export default function HeroSection() {
           {/* right */}
           <div className="relative h-fit med:h-[653px] w-full">
 
-            <div className="relative med:absolute med:bottom-0 med:right-0">
+            <div className="flex items-center justify-center relative med:absolute med:bottom-0 med:right-0">
               <img
                 src="/HeroImage.png"
                 alt="Hero holding phone"
-                className="-scale-x-100 max-h-[653px] h-fit med:h-[653px] w-auto ml-auto"
+                className="-scale-x-100 max-h-[653px] h-fit med:h-[653px] w-auto"
               />
             </div>
 
@@ -84,7 +85,7 @@ export default function HeroSection() {
             /> */}
 
             {/* users badge */}
-            {/* <div className="absolute top-65 -right-3.5 bg-white shadow-lg rounded-lg p-4 flex items-center gap-2">
+            <div className="absolute top-65 -right-3.5 bg-white shadow-lg rounded-lg p-4 flex items-center gap-2">
               <div className="flex -space-x-[13px]">
 
                 <div className="relative w-10 h-auto overflow-hidden rounded-full border-2 border-white">
@@ -119,21 +120,21 @@ export default function HeroSection() {
                 <Title weight={600} className="text-base text-[#01081B]">120K+</Title>
                 <BodyText className="text-sm text-[#4D525F]">Active users</BodyText>
               </div>
-            </div> */}
+            </div>
 
             {/* payment badge */}
-            {/* <div className="absolute bottom-19 right-98 bg-white shadow-lg rounded-lg p-5">
+            <div className="absolute bottom-10 sm:bottom-10 lg:bottom-19 right-50 sm:right-80 lg:right-98 bg-white shadow-lg rounded-lg p-5">
               <Title weight={600} className="text-base text-[#01081B]">Payment Received</Title>
               <Title className="text-lg text-[#2E68FD] mt-1 mb-2">+35,890.00</Title>
-              <BodyText className="flex items-center justify-between gap-4.5 text-sm text-[#4D525F]">
+              <BodyText className="flex flex-row items-center justify-between gap-4.5 text-sm text-[#4D525F]">
                 <span>27th Oct, 2025</span>
                 <span className="flex items-center justify-between gap-1.5 text-green-500 font-medium">3.09% <FaArrowTrendUp /></span>
               </BodyText>
-            </div> */}
+            </div>
 
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 }
