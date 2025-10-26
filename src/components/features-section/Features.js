@@ -60,6 +60,7 @@ const features = [
 export default function Features() {
   return (
     <div className="space-y-12">
+      {/* section head */}
       <div className="text-center">
         <SmallTitle className="text-base text-[#932EFA]">
           FEATURES

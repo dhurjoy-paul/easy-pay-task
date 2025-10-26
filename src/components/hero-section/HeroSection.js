@@ -85,7 +85,7 @@ export default function HeroSection() {
             /> */}
 
             {/* users badge */}
-            <div className="absolute top-65 -right-3.5 bg-white shadow-lg rounded-lg p-4 flex items-center gap-2">
+            <div className="absolute top-65 -right-3.5 lg:right-0 xl:-right-3.5 bg-white shadow-lg rounded-lg p-4 flex items-center gap-2 overflow-hidden">
               <div className="flex -space-x-[13px]">
 
                 <div className="relative w-10 h-auto overflow-hidden rounded-full border-2 border-white">
