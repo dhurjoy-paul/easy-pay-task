@@ -1,5 +1,4 @@
 import Footer from "@/components/footer/Footer";
-import Navbar from "@/components/navbar/Navbar";
 import { Outfit, Urbanist } from "next/font/google";
 import "./globals.css";
 
@@ -24,7 +23,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${outfit.variable} ${urbanist.variable}`}>
-        <Navbar />
         {children}
         <Footer />
       </body>

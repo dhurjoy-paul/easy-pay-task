@@ -7,6 +7,9 @@
 
 @theme {
   --breakpoint-small: 24rem;
+  --breakpoint-30rem: 30rem;
+  --breakpoint-lar: 55.625rem;
+  --breakpoint-med: 69rem;
   --breakpoint-wide: 74rem;
 }
 
@@ -28,4 +31,10 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-gradient {
+  /* background: radial-gradient(circle at 50% 600%, #cd9bff 50%, #ffffff); */
+  /* background: radial-gradient(closest-side at 472px 351px, #cd9bff, #ffffff); */
+  background: radial-gradient(circle 450px at center 127%, #cd9bff, #ffffff);
 }

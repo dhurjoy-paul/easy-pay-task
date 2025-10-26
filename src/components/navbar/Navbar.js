@@ -20,12 +20,13 @@ export default function Navbar() {
 
   return (
     <Container>
-      <nav className="flex items-center justify-between py-3 relative">
+      {/* <nav className="flex items-center justify-between pt-9 pb-6 relative"> */}
+      <nav className="flex items-center justify-between pt-9 relative">
 
         <Logo />
 
         {/* menu */}
-        <div className="hidden md:flex gap-6 mt-0.5">
+        <div className="hidden md:flex gap-3 mt-0.5">
           {menu.map((m) => (
             <NavLink key={m.name} href={m.href}>
               {m.name}

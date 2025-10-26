@@ -14,7 +14,7 @@ export default function MobileMenu({ open, menu }) {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: "-100%", opacity: 0 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
-          className="absolute top-0 left-0 w-full bg-white shadow-md md:hidden z-50 border-t"
+          className="absolute top-0 left-0 w-full bg-white shadow-md md:hidden z-50"
         >
           <div className="flex flex-col items-center py-5 space-y-5">
             {menu.map((m) => (
