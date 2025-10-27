@@ -45,6 +45,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.pricing-gradient {
+  /* background: radial-gradient(circle at 50% 600%, #cd9bff 50%, #ffffff); */
+  /* background: radial-gradient(closest-side at 472px 351px, #cd9bff, #ffffff); */
+  background: radial-gradient(circle 280px at center 65%, #cd9bff, #ffffff);
+}
+
 .footer-gradient {
   /* background: radial-gradient(circle at 50% 600%, #cd9bff 50%, #ffffff); */
   /* background: radial-gradient(closest-side at 472px 351px, #cd9bff, #ffffff); */
