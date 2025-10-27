@@ -8,22 +8,22 @@ export default function SmallCard({ title, description, svg, number, color }) {
       ${number ? "pb-3 59rem:pb-6 px-3 59rem:px-6" : ""}`}
       style={color ? { backgroundColor: color } : {}}
     >
-      <div className="relative flex justify-center md:justify-start">
-        {
-          number ? (
+      {
+        number ? (
+          <div className="relative flex justify-center md:justify-start">
             <div className="relative">
               <Title className="text-[5rem] text-[#F3F3F3] -ml-1">{number}</Title>
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 md:left-2.5 md:translate-x-0 flex items-center h-fit">
                 {svg}
               </div>
             </div>
-          ) : (
-            <div className="flex items-center h-12 justify-center">
-              {svg}
-            </div>
-          )
-        }
-      </div>
+          </div>
+        ) : (
+          <div className="flex items-center h-12 justify-center">
+            {svg}
+          </div>
+        )
+      }
 
       <div>
         <Title className={`text-xl text-[#01081B] mb-2 ${number ? "text-center md:text-start whitespace-nowrap" : "text-center"}`}>{title}</Title>
