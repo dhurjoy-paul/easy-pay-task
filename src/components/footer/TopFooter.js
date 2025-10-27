@@ -15,7 +15,7 @@ export default function TopFooter() {
 
 
         <BodyText className="text-sm sm:text-base max-w-2xl mt-4 sm:mt-3 mb-10 px-4 sm:px-0">
-          Ready for hassle-free, secure payments anywhere in the world? Start using Monks Pay today — it's fast, free, and on keeping your transactions secure!
+          Ready for hassle-free, secure payments anywhere in the world? Start using Monks Pay today — it&apos;s fast, free, and on keeping your transactions secure!
         </BodyText>
 
         <div className="flex flex-wrap justify-center items-center gap-3">

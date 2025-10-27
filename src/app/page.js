@@ -3,6 +3,7 @@ import HeroSection from "@/components/hero-section/HeroSection";
 import HowItWorksSection from "@/components/howitworks-section/HowItWorksSection";
 import PricingSection from "@/components/pricing-section/PricingSection";
 import SecuritySection from "@/components/security-section/SecuritySection";
+import TestimonialSection from "@/components/testimonial-section/TestimonialSection";
 
 export default function HomeLayout() {
   return (
@@ -12,6 +13,7 @@ export default function HomeLayout() {
       <HowItWorksSection />
       <SecuritySection />
       <PricingSection />
+      <TestimonialSection />
     </main>
   );
 }

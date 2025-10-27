@@ -46,9 +46,11 @@ body {
 }
 
 .pricing-gradient {
-  /* background: radial-gradient(circle at 50% 600%, #cd9bff 50%, #ffffff); */
-  /* background: radial-gradient(closest-side at 472px 351px, #cd9bff, #ffffff); */
-  background: radial-gradient(circle 280px at center 65%, #cd9bff, #ffffff);
+  background: radial-gradient(circle 280px at center 63%, #cd9bff, #ffffff);
+}
+
+.testimonial-gradient {
+  background: radial-gradient(circle 180px at right 50% 50%, #cd9bff, #ffffff);
 }
 
 .footer-gradient {
